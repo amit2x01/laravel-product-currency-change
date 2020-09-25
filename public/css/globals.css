@@ -1,0 +1,153 @@
+
+/* color */
+
+.primary-bg{
+	background-color: #000024;
+}
+.primary-text{
+	color: #000024;
+}
+
+.secondary-bg{
+	background-color: #008aff;
+}
+.secondary-text{
+	color: #008aff;
+}
+.bg-light-gray{
+	background-color: #e8e5e5;
+}
+
+
+.bg-white{
+	background-color: #fff;
+}
+.text-white{
+	color:#fff;
+}
+
+/* text styling */
+
+
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.underline{
+	text-decoration: underline;
+}
+.no-underline,.text-decoration-none{
+	text-decoration: none !important;
+}
+
+.center{
+	text-align: center;
+}
+
+/* text size */
+
+
+.text-sm{
+	font-size: 10px;
+}
+.text-12{
+	font-size: 12px;
+}
+.text-14{
+	font-size: 14px;
+}
+.text-16{
+	font-size: 16px;
+}
+.text-18{
+	font-size: 18px;
+}
+.text-20{
+	font-size: 20px;
+}
+.text-22{
+	font-size: 22px;
+}
+.text-24{
+	font-size: 24px;
+}
+.text-26{
+	font-size: 26px;
+}
+.text-28{
+	font-size: 28px;
+}
+.text-lg{
+	font-size: 30px;
+}
+
+
+/* transform rotate */
+.rotate-0{
+	transform: rotate(0deg);
+}
+.rotate-90{
+	transform: rotate(90deg);
+}
+.rotate-180{
+	transform: rotate(180deg);
+}
+.rotate-270{
+	transform: rotate(270deg);
+}
+.rotate-360{
+	transform: rotate(360deg);
+}
+
+/* position */
+.position-absolute{
+	position: absolute;
+}
+.position-relative{
+	position: relative;
+}
+.position-fixed{
+	position: fixed;
+}
+
+
+
+/* now globals styling */
+
+
+button,button:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+[class*='col-']{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+	margin: 0;
+}
+
+
+
+/*  buttons */
+
+.btn-purple{
+	background-color: purple;
+	border-color: purple;
+	color:white;
+}
+.btn-purple:hover{
+	background-color: #8000a4;
+}
+
+
+/* Border */
+
+.no-border-radius,.border-radiud-0,.no-radius,.no-border-radius,.border-radius-none{
+	border-radius: 0!important;
+}
